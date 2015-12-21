@@ -1,0 +1,166 @@
+a {
+    cursor: pointer;
+	vertical-align: middle
+}
+.logo-text {
+	color: #F90;
+	margin-right: 5px;
+	font-size: 20px;
+	vertical-align:middle
+}
+img {
+	border: 0;
+	
+}
+body {
+    font-size: 12px;
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+}
+.table {
+    background: #FFF;
+    font-size: 12px;
+    border-top: 1px solid #DDD;
+    margin-top: 8px;
+    text-align: center;
+}
+.table,tr,td {
+    padding: 6px;
+    border-top: 0px;
+    border-bottom: 1px solid #DDD;
+    vertical-align: middle;
+    border: 1px solid #dddddd;
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+}
+.txt_url{
+	cursor:pointer;
+	color:#5bc0de;
+	text-decoration:underline;
+}
+th {
+	background:black;color:white;
+}
+.table_overview {border:1px solid #cccccc;width:100%}
+.th_bg{background:#2db400;color:white;}
+.tr_bg{background:#f1f1f1;}
+.th_bg,.tr_bg{text-align:center;height:33px;table-layout: fixed;}
+a.list-group-item .active{
+	z-index: 2;
+	color: white;
+	background-color:#428bca;
+}
+
+
+.rightin{
+	background-color:#2db400;
+	color:white;
+	z-index: 2;
+}
+
+.pageSelect{
+    display: inline-block;
+    padding: 4px 16px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #333;
+    background-color: #428bca;
+    border: 1px solid #e1e1e1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #428bca;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    border: 1px solid #1299ec;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    vertical-align: top;
+}
+
+
+.btn.disabled, .btn-warning.disabled{
+	background-image: none;
+    background-color: #C4C4C4;
+    border-color: #6F7170;
+    color: black;
+}
+.textappend{
+	height: 30px; 
+	width: 30px; 
+	border: 1px solid rgb(221, 221, 221); 
+	outline: 0px;
+}
+.btn_background{ background-color:#dddddd }
+
+.jumbotron {
+    position: relative;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+    background: #020031;
+    background: -moz-linear-gradient(45deg, #020031 0%, #6d3353 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6d3353));
+    background: -webkit-linear-gradient(45deg, #020031 0%,#6d3353 100%);
+    background: -o-linear-gradient(45deg, #020031 0%,#6d3353 100%);
+    background: -ms-linear-gradient(45deg, #020031 0%,#6d3353 100%);
+    background: linear-gradient(45deg, #020031 0%,#6d3353 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );
+    -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+
+.masthead {
+    padding: 70px 0 180px;
+    margin-bottom: 0;
+    color: #fff;
+}
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+}
+.masthead-links {
+	display: block;
+    margin: 0;
+    list-style: none;
+}
+
+.features {
+	display: inline-block;
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	list-style: none;
+	padding: 80px 0 20px;
+	font-weight: 700;
+	color: #666;
+	font-size: 18px;
+	text-align: center;
+	float: left;
+	width: 33.3%;
+	margin-right: 15px;
+	vertical-align: top;
+	text-align: left;
+	width: 150px;
+	
+	margin-top: 5px;
+	color: #999;
+	font-size: 12px;
+}
+.span4 {
+    width: 32%;
+    margin: 20px auto;
+    text-align: center;
+    display: inline-block;
+}

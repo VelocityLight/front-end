@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>监控详情</title>	
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/setPageBar.js"></script>
+    <script type="text/javascript" src="js/serviceDetail.js" charset="utf-8"></script>
+</head>
+
+<body style="padding-top: 80px;">
+    <div id="header">
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="navbar-header"> 
+                <img src="img/logo.png" height="50px">
+                <span class="logo-text">WatchDog</span>		
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+              	<li class="active"> <a href="/">首页</a> </li>
+                <li class="active"> <a href="search.htm">服务监控</a> </li>
+                <li class="active"> <a href="release.htm">发布验证</a> </li>
+                <li class="active"> <a href="http://tbdocs.alibaba-inc.com/pages/viewpage.action?pageId=240789361">帮助</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="content" style="padding-right:60px">
+  		<div id="main">
+    		<div class="container-fluid">
+      			<div class="col-sm-3 col-md-2">
+        			<div class="list-group"> 
+                    <a href="search.htm" class="list-group-item active">服务监控</a> 
+                    <a href="release.htm" class="list-group-item">发布验证</a> 
+                    </div>
+                </div>
+                <div class="col-sm-9 col-md-10">
+        			<div class="row" style="margin-top:10px">
+                        <div>
+            				<span style="margin-left:14px;font-size:18px;">服务监控列表</span>
+            			</div>
+          			</div>
+   					<div>
+	   					<table class="table table-bordered" style="margin-top:40px">
+	            			<tbody>
+	              				<tr>
+	                				<td>
+		          						<div class="aside" style="margin:30px auto; margin-bottom:10px">
+							      			<table class="table table-bordered" id="data-table" style="width:90%;margin:0 auto"></table>
+										</div>
+										<div id="pager" class="pull-right">	
+    										<ul class="pagination" id="setPage"></ul>
+    									</div>
+		          					</td>
+		          				</tr>
+		          			</tbody>
+		          		</table>
+	            	</div>
+            	</div>
+        	</div>
+        </div>
+    </div>
+</body>
+</html>
